@@ -12,7 +12,7 @@ fun main() {
     if (performance == 1.0){
         println("Excellent!")
         val perInc = (salary *0.06)+salary
-        var new_salary = println("percent of increase " + perInc )
+        var new_salary = println("Salary now  " + perInc )
         println (new_salary)
     }
 
@@ -29,7 +29,7 @@ fun main() {
         println (new_salary)
     }
     else {
-        println("No raise")
+        println("Error")
     }
 
 
