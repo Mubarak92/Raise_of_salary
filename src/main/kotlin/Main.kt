@@ -11,21 +11,24 @@ fun main() {
 
     if (performance == 1.0){
         println("Excellent!")
-        val perInc = (salary *0.06)+salary
-        var new_salary = println("Salary now  " + perInc )
+        val perInc = (salary *0.06)
+        println ("amount of raise: " +perInc)
+        var new_salary = println("percent of increase " + (perInc + salary) )
         println (new_salary)
     }
 
     else if (performance == 2.0){
-        println("Very Good!")
-        val perInc = (salary *0.04)+salary
-        var new_salary = println("percent of increase " + perInc )
+        println("Very Good! you got 4% raise")
+        val perInc = (salary *0.04)
+        println ("amount of raise: " +perInc)
+        var new_salary = println("percent of increase " + (perInc + salary) )
         println (new_salary)
     }
     else if (performance == 3.0){
         println("poor")
-        val perInc = (salary *0.015)+salary
-        var new_salary = println("percent of increase " + perInc )
+        val perInc = (salary *0.015)
+        println ("amount of raise: " +perInc)
+        var new_salary = println("percent of increase " + (perInc + salary) )
         println (new_salary)
     }
     else {
@@ -34,3 +37,5 @@ fun main() {
 
 
 }
+
+// ((salary/6)salry)*100
